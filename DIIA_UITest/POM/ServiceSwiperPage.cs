@@ -17,7 +17,7 @@ namespace DIIA_UITest.POM
         }
 
 
-        private readonly By _card = By.XPath("//*[@id='gromadyanam']//*[@class = 'swiper_services-slide-title']/text()");
+        private readonly By Card = By.XPath("//*[@id='gromadyanam']//*[@class = 'swiper_services-slide-title']/text()");
 
        
         public ServiceSwiperPage GoToServiceSwiperPage()

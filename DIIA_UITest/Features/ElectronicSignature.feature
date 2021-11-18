@@ -1,9 +1,16 @@
 ﻿Feature: ElectronicSignature
-	Simple calculator for adding two numbers
+	I am as a user
+I want to know more about electronic signature
+To sign documents online
 
-@mytag
-Scenario: Add two numbers
-	Given the first number is 50
-	And the second number is 70
-	When the two numbers are added
-	Then the result should be 120
+Background:
+	Given main page is open
+
+	@learnmore
+	When I click on  'Дізнатися більше'
+	Then I can see the information on the page 'Що таке електроний підпис'
+
+	@learnmore
+	When I click on  'Дізнатися більше'
+	When I click on 'Як підписати документ онлайн'
+	Then I can see the information on the page 'Як підписати документ онлайн'

@@ -25,6 +25,5 @@ namespace DIIA_UITest.Steps
         {
             _serviceSwiperPage.GoToServiceSwiperPage();
         }
-
     }
 }
