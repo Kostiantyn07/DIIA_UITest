@@ -16,9 +16,7 @@ namespace DIIA_UITest.POM
             _webDriver = webDriver;
         }
 
-
         private readonly By Card = By.XPath("//*[@id='gromadyanam']//*[@class = 'swiper_services-slide-title']/text()");
-
        
         public ServiceSwiperPage GoToServiceSwiperPage()
         {
